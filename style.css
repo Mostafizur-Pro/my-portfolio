@@ -16,13 +16,13 @@ section {
   margin-left: 5%;
   padding-left: 2%;
 }
-.halt-width img {
-  width: 100%;
+.half-width img {
+  width: 80%;
 }
 h1 {
   font-size: 50px;
 }
-h1 span {
+span {
   color: orange;
 }
 .button {
@@ -32,4 +32,25 @@ h1 span {
   background: linear-gradient(45deg, lightsalmon, tomato);
   border-radius: 20px;
   color: white;
+}
+.experiences {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+}
+.dream-area {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+#full-stack {
+  box-shadow: 10px 10px 40px gray;
+  border-left: 7px solid orange;
+}
+#baby-web {
+  box-shadow: 10px 10px 40px gray;
+  border-left: 7px solid;
+}
+footer {
+  color: gray;
+  text-align: center;
 }
